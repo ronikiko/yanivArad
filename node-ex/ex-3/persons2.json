@@ -1,0 +1,12 @@
+{
+	"persons": [
+		{
+			"id": 200,
+			"address": {"street": "Herzel", "city": "Tel aviv"}
+		},
+		{
+			"id": 300,
+			"address": {"street": "Bazel", "city": "Haifa"}
+		}
+	]
+}

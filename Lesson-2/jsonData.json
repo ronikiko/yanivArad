@@ -1,0 +1,24 @@
+{
+	"persons": [
+		{
+			"name": "Roni",
+			"adress": {
+				"city": "haifa",
+				"street": {
+					"name": "tora vavoda",
+					"number": 28
+				}
+			}
+		},
+		{
+			"name": "David",
+			"adress": {
+				"city": "nofagalil",
+				"street": {
+					"name": "tre asar",
+					"number": 32
+				}
+			}
+		}
+	]
+}
