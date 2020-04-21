@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create User Page</title>
+  </head>
+  <body>
+    <h1>Create User Page</h1>
+    <form action="/createUser" method="POST">
+      frist Name :
+      <input type="text" name="firstname" /><br /><br />
+      LAst Name :
+      <input type="text" name="lastname" /><br /><br />
+      Gender: <br />
+      Male:
+      <input type="radio" name="gender" value="male" />
+      Fmale:
+      <input type="radio" name="gender" value="fmale" /><br /><br />
+      Adult ?
+      <input type="checkbox" name="adult" value="true" />
+      <br />
+      City :
+      <select name="city">
+        <option value="">select city</option>
+        <option value="haifa">Haifa</option>
+        <option value="tel-aviv">tel-aviv</option> 
+        </select
+      ><br />
+      <br />
+      <input type="submit" value="Create USer" />
+    </form>
+  </body>
+</html>
